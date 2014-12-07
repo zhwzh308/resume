@@ -3,17 +3,16 @@
 
 \documentclass{res} 
 \usepackage{hyperref}
-%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
 \setlength{\textheight}{9.5in} % increase text height to fit on 1-page 
 
 \begin{document} 
 
-\name{WENZHONG ZHANG\\[12pt]}     % the \\[12pt] adds a blank
-				        % line after name      
+\name{WENZHONG ZHANG\\[12pt]}     % the \\[12pt] adds a blank line after name      
 
-\address{\bf Unit 808, 38 Dan Leckie Way\\Toronto, ON\space\space M5V 2V6\\(416)
-795-0370\\\href{mailto:wenzhong.zhang@mail.utoronto.ca}{wenzhong.zhang@mail.utoronto.ca}}
+\address{\bf Unit 808, 38 Dan Leckie Way\\Toronto, ON \space\space M5V 2V6\\(416)
+795-0370\\\href{zhang@magniware.ca}{zhang@magniware.ca}}
 
 \begin{resume}
 
@@ -23,46 +22,53 @@
  
 \section{EDUCATION}          
     University of Toronto, Toronto, ON  \\        
-    Bachelor of Applied Science, Class of 2014   \\       
-    Computer Engineering
+    Bachelor of Applied Science (Computer Engineering), Class of 2014
     
 \section{COMPUTER SKILLS}          
-    {\bf Languages}\\Proficient in: C/C++, Objective C, Python, Verilog\\
-    Familiar with: Java, Ruby on Rails, JavaScript, MySQL, Scheme, SWI-Prolog\\
-    {\bf Software}\\Xcode, MATLAB, Eclipse, Quartus\\
+    Experienced in: C/C++, Objective C, HTML, Xcode, MATLAB, Eclipse, Quartus\\
+    Familiar with: Ruby on Rails, HTML, CSS, JavaScripts, Java, Scheme, SWI-Prolog, Verilog\\
     Platforms: Microsoft Windows\textregistered, UNIX-like Operating Systems
 
 \section{EXPERIENCE}
-   \vspace{-0.1in}
+   % \vspace{-0.1in}
+   \begin{tabbing}%
+   \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions          
+   {\bf Systems Lead}  \>Magniware Software Platform (\textbf{\textit{iOS, Web, System Integration}})\>\\
+                          \>Magniware Ltd. (2013-2014)
+   \end{tabbing}
+   \vspace{-20pt}
+    Lead the development of iOS Platform\\
+    Facilitate data flow from BLE \textit{peripheral} devices to \textit{central} device\\
+    Administrate team software services including \textit{Amazon Web Service}, iOS developer platform, and internal communication.
    \begin{tabbing}%
    \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions          
    {\bf iOS Developer}  \>Real-time Bloodflow Simulator (\textbf{\textit{Objective-C}})\>\\
                           \>Capstone Project (2013-2014)
-   \end{tabbing}\vspace{-20pt}
-    Implemented image processing framework.\\
-    Responsible for implementing skin detection, skin segmentation and post-processing with OpenGL ES 2.0\\
-    Leveraged \textit{vImage, vDSP, AVFoundation} and related APIs to achieve real-time processing
+   \end{tabbing}
+   \vspace{-20pt}
+    Implemented image processing framework, including \textit{skin detection}, \textit{skin segmentation} and post-processing with \textbf{\textit{OpenGL ES 2.0}}\\
+    Leveraged \textit{vImage, vDSP, AVFoundation}, and related APIs to achieve processing in real-time
    \begin{tabbing}
    \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
     {\bf Build Manager} \>MyBPM tool (\textbf{\textit{Ruby on Rails, Javascript}})\>\\
                           \>Software Engineering II (winter 2014) course project
-   \end{tabbing}\vspace{-20pt}
-    Built and deployed the Ruby on Rails application on Amazon Web Service.\\
-    Provided assistance to team members with development associated issues.\\
-    Developed with front end team using (\textbf{\textit{JQuery, Raphael}}).\\
-    Styled website using Bootstrap.\\Project is hosted at \url{http://www.mybpmtool.com/}
+   \end{tabbing}
+   \vspace{-20pt}
+    Built and deployed the Ruby on Rails application on Amazon Web Service\\
+    Developed with front end team using (\textbf{\textit{JQuery, Raphael, Bootstrap}})\\
+    Project is hosted at \url{http://www.mybpmtool.com/}
    \begin{tabbing}
    \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
-   {\bf Component Quality Engineer} \>AMD Incorporated (\textbf{\textit{C++, bash}})\>\\
+   {\bf Component Quality Engineer} \>Software Department, AMD Incorporated (\textbf{\textit{C++, Visual Studio, bash}})\>\\
                              \>Markham, Ontario (May 2011 - August 2012)
-   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
-    Designed tests for AMD graphics driver, multimedia component.\\Responsible
-    for daily staging test, weekly build promotion.\\
-    Certified AMD Graphic Driver for docking station used on Sony VAIO Z series laptop
-    ahead of deadline, was recognized by both VP of Sony and VP of AMD.\\
-    Performed regression for driver vulnerbility (CERT note \#458153,
-    \url{http://www.kb.cert.org/vuls/id/458153}). Identified defect on
-    the same day, minimized impact.
+   \end{tabbing}
+   \vspace{-20pt}      % suppress blank line after tabbing
+    Designed automated tests for AMD graphics driver, multimedia component.\\
+    Responsible for daily staging test, weekly build promotion.\\
+    Certified AMD Graphic Driver for docking station used on Sony VAIO Z series premium laptop
+    ahead of deadline; work recognized by both VP of Sony and VP of AMD.\\
+    Regressed and identified AMD driver vulnerbility (CERT note \#458153,
+    \url{http://www.kb.cert.org/vuls/id/458153}).
 
 \section{SCHOLARSHIP AND AWARDS}          
     \begin{tabular} {l l r}
@@ -72,4 +78,6 @@
     \end{tabular}
 
 \end{resume}
+
 \end{document}
+
